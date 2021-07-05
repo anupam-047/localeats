@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+    <title>Local Eats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'Roboto', 'Cookie', cursive, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: #6A6A6A;
+        }
+
+        p {
+            line-height: 32px;
+            text-align: justify;
+        }
+
+        .top-section {
+            display: flex;
+            background-image: url(images/banner-top.png);
+            background-repeat: no-repeat;
+            margin-bottom: 150px;
+        }
+
+        .about-section {
+            display: flex;
+            background-image: url(images/banner-about.jpg);
+            background-repeat: no-repeat;
+            padding: 30px 100px 56px 0;
+        }
+
+        .recipies-section {
+            background-color: #ededed;
+            background-repeat: no-repeat;
+            padding: 35px 0px 50px 0;
+        }
+
+        .reservation-section {
+            display: flex;
+            padding: 35px 0px 50px 0;
+        }
+
+        #delicious {
+            color: #df7e16;
+            font-family: Cookie;
+        }
+
+        .spice-color {
+            color: #df7e16;
+        }
+
+        .green-color {
+            color: #447334;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .column-half {
+            width: 50%;
+            padding-left: 8%;
+        }
+
+        .column-half img {
+            width: 95%;
+            padding-top: 75px;
+        }
+
+        .column-third {
+            float: left;
+            width: 33.33%;
+        }
+
+        .recipies-title {
+            text-align: center;
+            padding: 0px 350px 50px;
+            ;
+        }
+
+        .recipies-body {
+            display: flex;
+            margin: 0 285px;
+        }
+
+        .recipie-card {
+            width: 300px;
+            text-align: center;
+            background: #fff;
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            ;
+        }
+
+        .recipie-card img {
+            width: 300px;
+            border-radius: 20px;
+        }
+
+        .link-button {
+            text-decoration: none;
+            padding: 15px 45px;
+            border-radius: 5px;
+            background-image: linear-gradient(#df7e16, #a22711);
+            color: white;
+            font-weight: 700;
+        }
+
+        input[type=text],
+        select {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=email],
+        select {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=number],
+        select {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 90%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px 0;
+        }
+
+        footer p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="top-section">
+        <div class="column-half">
+
+            <h1> <span id="delicious">Spicy & Delicious</span> <br>UNLIMITED FOOD <br><span class="green-color">Now
+                    in Dhaka</span></h1>
+
+            <p>LocalEats Restaurant is an exclusive Restaurant in Dhaka City located @ Dhanmondi 4. Specially for the
+                South Zone's Foodie. Bengali is like to talk at the time of eating, else we are here. A bunch of young
+                dream is working behind this restaurant. For that we tried to decor it with our entire. We started our
+                journey from October 2012. LocalEats Restaurant start to service the people with the Slogan" Gossiping
+                with Foods". </p>
+            <br>
+            <a class="link-button" href="index.html" target="_blank">Book A Table</a>
+        </div>
+        <div class="column-half">
+            <img src="images/food-image.png" alt="Food Image">
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="column-half">
+            <img src="images/about.png" alt="About LocalEats">
+        </div>
+        <div class="column-half">
+            <h1 class="text-center">Welcome to Local<span class="spice-color">Eats</span></h1>
+            <h2 class="text-center">Descover Our Story</h2>
+            <p>Local<span class="spice-color">Eats</span> is a restaurant, bar and coffee roastery located on a busy
+                corner site in Farringdon’s Exmouth
+                Market. With glazed frontage on two sides of the building, overlooking the market and a bustling Dhaka
+                intersec. Local<span class="spice-color">Eats</span> is the place for a fine dining experience where the
+                tradition is blended with an imaginative and
+                modern twist.
+                <br><br><br>
+                <a class="link-button" href="index.html" target="_blank">Read More</a>
+            </p>
+        </div>
+
+    </section>
+
+    <section class="recipies-section">
+        <div class="recipies-title">
+            <h1>Our <span class="spice-color">Recipies</span></h1>
+            <p>We’ve gathered together some advice to help you cook like a local by using the right
+                ingredients and methods to capture the vibrant tastes of China. Asian cookery often involves a complex
+                mixture of spices and heat, plus sweet and umami flavouring, so a fine balancing act is often required
+                to achieve that perfect taste of the Orient. </p>
+        </div>
+        <div class="recipies-body">
+            <div class="column-third">
+                <div class="recipie-card">
+                    <img src="images/recipies1.jpg" alt="recipies">
+                    <h2>Right way to make chinese food</h2>
+                    <p>Take your culinary exploration of Chinese food beyond the typical chow mein and sweet & sour
+                        chicken meals of takeaway fame and you’ll find a whole new exciting array of Far Eastern
+                        flavours.
+                    </p>
+                </div>
+
+            </div>
+            <div class="column-third">
+                <div class="recipie-card">
+                    <img src="images/recipies2.jpg" alt="recipies">
+                    <h2>How To Cook The Spicy Noodle</h2>
+                    <p>Take your culinary exploration of Chinese food beyond the typical chow mein and sweet & sour
+                        chicken meals of takeaway fame and you’ll find a whole new exciting array of Far Eastern
+                        flavours.
+                    </p>
+                </div>
+            </div>
+            <div class="column-third">
+                <div class="recipie-card">
+                    <img src="images/recipies3.jpg" alt="recipies">
+                    <h2>Rich flavour of grill nun & hot cereals</h2>
+                    <p>Take your culinary exploration of Chinese food beyond the typical chow mein and sweet & sour
+                        chicken meals of takeaway fame and you’ll find a whole new exciting array of Far Eastern
+                        flavours.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation-section">
+        <div class="column-half">
+            <img src="images/reservation.jpg" alt="About LocalEats">
+        </div>
+        <div class="column-half">
+            <h1>Reservation</h1>
+            <h2>CHOOSE YOUR TABLE</h2>
+            <p>
+            <form>
+                <label>First Name:</label>
+                <input type="text"><br> <br>
+                <label>Last Name:</label>
+                <input type="text"><br> <br>
+                <label>Email Address:</label>
+                <input type="email"><br> <br>
+                <label>Mobile Number:</label>
+                <input type="number"><br> <br>
+                <label>Table Number:</label>
+                <input type="number"><br> <br>
+                <label>Your Message:</label><br>
+                <input type="text"><br> <br>
+                <input type="submit" value="Submit"> <br>
+            </form>
+            </p>
+        </div>
+
+    </section>
+    <footer>
+        <h1 class="text-center">Local<span class="spice-color">Eats</span></h1>
+        <p>© 2021 All Rights Reserved LocalEats</p>
+    </footer>
+</body>
+
+</html>
